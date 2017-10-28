@@ -1,0 +1,202 @@
+*{
+    padding:0;
+    margin:0;
+}
+@keyframes background {
+    0% { background-color: #CD6155; }
+    12.5% { background-color: #A569BD; }
+    25%{background-color: #5499C7; }
+    37.5% { background-color: #45B39D; }  
+    50% { background-color: #58D68D; }
+    62.5% { background-color: #F4D03F; }
+    75% { background-color: #EB984E }
+    87.5% { background-color: #616A6B; }
+    100% { background-color: #CD6155; }
+}
+
+body {
+    background-color: #CD6155;
+    height: 100%;
+    /*-webkit-animation: background 20s cubic-bezier(0,0,0,0) infinite;*/
+    animation: background 20s cubic-bezier(0,0,0,0) infinite; 
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+ul, li{
+    list-style: none;
+    display: inline black;
+}
+
+a{
+    text-decoration: none;
+    transition: all 500ms ease-in-out;
+}
+
+a:hover,
+a:active{
+    text-decoration: none;
+}
+
+p{
+    color:#212F3C;
+    font-size:16px;
+    font-family: monospace;
+    /*filter: alpha(opacity=60);*/
+    opacity: 0.70;
+    line-height: 21px;
+}
+
+.btn{
+    transition: all 300ms ease-in-out;
+    font-weight: 900 !important;
+    text-transform: uppercase;
+    font-family: monospace;
+}
+
+.btn:hover{
+    background-color: #F48FB1 !important;
+    color: #3c3c3c !important;
+    border: 1px solid #fff !important;
+}
+
+/*Navigation*/
+.navbar{
+    background-color: #283747 !important;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-weight: 700;
+}
+
+.navbar a{
+    color: #fff !important;
+    opacity: 0.7;
+}
+
+.navbar a:hover{
+    opacity: 1;
+    background-color: #E91E63 !important;
+}
+/*Navigation*/
+
+/*HEADER*/
+.header{
+    width: 100%;
+    background: #16A085;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #fff;
+    animation: background 20s cubic-bezier(0,0,0,0) infinite;
+}
+
+.header img{
+    height: 350px;
+    width: 450px;
+    margin: 70px 0 0 40px;
+}
+
+.header h1{
+    font-family: monospace;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.header .btn{
+    border-radius: 0;
+    margin: 40px 20px;
+}
+/*HEADER*/
+
+/*SERVICES*/
+.services{
+    text-align: center;
+    width: 100%;
+    background: #58D68D;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #fff;
+    animation: background 10s cubic-bezier(0,0,0,0) infinite;
+}
+
+.services h2,
+.services h4{
+    color: #4c4c4c;
+}
+
+.services h2{
+    font-family: monospace;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.services i{
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 50%;
+    background-color:#3E2723;
+    color: #E91E63;
+    padding: 25px 20px;
+}
+/*SERVICES*/
+
+/*PRICING*/
+.pricing{
+    text-align: center;
+    width: 100%;
+    background: #58D68D;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #fff;
+    animation: background 20s cubic-bezier(0,0,0,0) infinite;
+}
+
+.pricing h2{
+    font-family: monospace;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+/*PRICING*/
+
+/*TEAM*/
+.team{
+    text-align: center;
+    width: 100%;
+    background: #58D68D;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #fff;
+    animation: background 10s cubic-bezier(0,0,0,0) infinite;
+}
+.team h2{
+    font-family: monospace;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+/*TEAM*/
+
+/*CLIENT*/
+.client h2{
+    font-family: monospace;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+/*CLIENT*/
+
+/*CONTACT*/
+.contact h2{
+    font-family: monospace;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+/*CONTACT*/
+
+/*FOOTER*/
+.footer h4{
+    font-family: monospace;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+/*FOOTER*/
